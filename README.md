@@ -1,9 +1,5 @@
 # 🌤️ 基于 LSTM 的邯郸市气温时间序列预测系统
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-1.10%2B-red)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 ## 📌 项目简介
 本项目利用深度学习中的长短期记忆网络（LSTM），对邯郸市 2023 年至 2025 年的历史气象数据进行建模。系统完成了从**原始数据清洗、特征构建、模型训练调优**到**未来7天多步预测**及**交互式可视化**的完整闭环。
 
@@ -32,14 +28,14 @@
 
 ## 📊 运行效果展示
 ### 1. 历史温度数据趋势
-https://xn--cjrpte1x51eoxc0vt670c.png/
+(温度数据可视化.png)
 
 ### 2. 模型训练与测试损失曲线
 (注：模型在第 40 轮左右快速收敛，证明学习率与网络结构设置合理)
-https://xn--0try1imxkjkk23vzwrdia.png/
+(训练和测试损失.png)
 
 ### 3. 未来天气预测界面
-https://web.png/
+(web.png)
 
 ## 💻 快速开始
 ### 1. 安装依赖环境
